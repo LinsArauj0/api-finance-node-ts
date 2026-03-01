@@ -9,7 +9,7 @@ import {
 } from "../controllers/CategoryHandler";
 import { sendJson } from "../utils/sendJson";
 
-export async function categoriesRoutes(req: IncomingMessage, res: ServerResponse) {
+export async function categoryRoutes(req: IncomingMessage, res: ServerResponse) {
     const method = req.method;
     const url = req.url || '';
 

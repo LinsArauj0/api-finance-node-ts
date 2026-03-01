@@ -1,5 +1,3 @@
-// src/controllers/CategoryHandler.ts
-
 import { IncomingMessage, ServerResponse } from 'node:http';
 import { sendJson } from '../utils/sendJson';
 import { readJsonBody } from '../utils/readJsonBody';
